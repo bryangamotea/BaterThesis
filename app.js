@@ -5,5 +5,5 @@ $(document).ready(function (){
 
 	$('.navButton').mouseleave(function(){
 		$(this).animate({opacity:'.25'},600);
-	});
+	 });
 });
