@@ -1,5 +1,9 @@
 $(document).ready(function (){
-	$('.home').mouseenter(function(){
-		$('home').animate({opacity:'1'},1000);
+	$('.navButton').mouseenter(function(){
+		$(this).animate({opacity:'1'},600);
+	});
+
+	$('.navButton').mouseleave(function(){
+		$(this).animate({opacity:'.25'},600);
 	});
 });
