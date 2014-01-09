@@ -1,0 +1,127 @@
+@import 'compass';
+@import 'default';
+@import 'buttons';
+
+body {
+	background-color: $bgcolor;
+	font-family: 'Varela Round', sans-serif;
+	font-size:30px;
+}
+
+.container {
+	width: 100%;
+	.con {
+		width:1000px;
+		margin:$defmar;
+	}
+}
+
+.clearfix {
+	clear:both;
+}
+
+.header {
+	width: 100%;
+	height: 45px;
+	background-color: $black;
+	margin-bottom:10px;
+
+	.nav {
+		width:320px;
+		top: 5px;
+		margin: auto;
+		position: relative;
+
+		.home {
+			@include icons-sprite(home);
+			height: $iconhw;
+			width: $iconhw;
+			display:inline-block;
+			margin-left: 20px;
+			margin-right: 20px;
+			opacity: .25;
+		}
+
+		.history {
+			@include icons-sprite(history);
+			height: $iconhw;
+			width:$iconhw;
+			display:inline-block;
+			margin-left: 20px;
+			margin-right: 20px;
+			opacity: .25;
+		}
+
+		.quiz {
+			@include icons-sprite(quiz);
+			height: $iconhw;
+			width: $iconhw;
+			display:inline-block;
+			margin-left: 20px;
+			margin-right: 20px;
+			opacity: .25;
+		}
+
+		.htmltags {
+			@include icons-sprite(htmltag);
+			height: $iconhw;
+			width: $iconhw;
+			display:inline-block;
+			margin-left: 20px;
+			margin-right: 20px;
+			opacity: .25;
+		}
+	}
+
+	.usericon {
+		@include icons-sprite(login);
+		height: $iconhw;
+		width: $iconhw;
+		position:absolute;
+		right: 50px;
+		top: 5px;
+	}
+}
+
+.logo {
+	width:312px;
+	margin: $defmar2;
+
+	#logo{
+		width:312px;
+		height:312px;
+	}
+}
+
+.content {
+	width:500px;
+	height:150px;
+	padding:10px;
+	margin: $defmar2;
+	text-align:center;
+	background-color:$white;
+	border-radius: 10px;
+
+	span {
+		color: $orange;
+	}
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: $black;
+	color: $white;
+
+	.f-con {
+		width: 500px;
+		margin: auto;
+		font-size: 15px;
+		top: 15px;
+		position: relative;
+
+		span {
+			color: $orange;
+		}
+	}
+}

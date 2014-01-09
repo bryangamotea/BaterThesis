@@ -1,0 +1,34 @@
+/* line 82, icons/*.png */
+.icons-sprite, .icons-history, .icons-home, .icons-htmlicon, .icons-htmltag, .icons-login, .icons-quiz {
+  background: url('../images/icons-s68182a499e.png') no-repeat;
+}
+
+/* line 60, ../../../.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-history {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-home {
+  background-position: -32px 0;
+}
+
+/* line 60, ../../../.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-htmlicon {
+  background-position: -64px 0;
+}
+
+/* line 60, ../../../.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-htmltag {
+  background-position: -86px 0;
+}
+
+/* line 60, ../../../.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-login {
+  background-position: -118px 0;
+}
+
+/* line 60, ../../../.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-quiz {
+  background-position: -150px 0;
+}

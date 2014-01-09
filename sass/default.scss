@@ -1,0 +1,12 @@
+$bgcolor:#00bfff;
+$black:black;
+$white:white;
+$orange:#FF7F00;
+$defmar: 0px auto;
+$defmar2: 30px auto;
+$iconhw:32px;
+$icons-layout:horizontal;
+
+@import 'compass';
+@import 'icons/*.png';
+@include all-icons-sprites;
