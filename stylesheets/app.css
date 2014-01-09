@@ -199,3 +199,13 @@ body {
 .footer .f-con span {
   color: #ff7f00;
 }
+/* line 127, ../sass/app.scss */
+.footer .f-con a:link {
+  text-decoration: none;
+  color: #ff7f00;
+}
+/* line 133, ../sass/app.scss */
+.footer .f-con a:visited {
+  text-decoration: none;
+  color: #ff7f00;
+}
