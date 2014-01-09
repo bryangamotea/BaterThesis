@@ -32,7 +32,7 @@ body {
 		margin: auto;
 		position: relative;
 
-		.home {
+		#home {
 			@include icons-sprite(home);
 			height: $iconhw;
 			width: $iconhw;
@@ -42,7 +42,7 @@ body {
 			opacity: .25;
 		}
 
-		.history {
+		#history {
 			@include icons-sprite(history);
 			height: $iconhw;
 			width:$iconhw;
@@ -52,7 +52,7 @@ body {
 			opacity: .25;
 		}
 
-		.quiz {
+		#quiz {
 			@include icons-sprite(quiz);
 			height: $iconhw;
 			width: $iconhw;
@@ -62,7 +62,7 @@ body {
 			opacity: .25;
 		}
 
-		.htmltags {
+		#htmltags {
 			@include icons-sprite(htmltag);
 			height: $iconhw;
 			width: $iconhw;
